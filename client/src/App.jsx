@@ -4,11 +4,11 @@ import Home from './pages/Home'
 
 function App() {
   return (
-    <>
-      <h1 className="head-text">
-    ThreeJs
-    </h1>
-    </>
+    <main className='app translate-all ease-in'>
+    <Home/>
+    <Canvas/>
+    <Customizer/>
+    </main>
   )
 }
 
