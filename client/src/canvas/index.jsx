@@ -2,7 +2,7 @@ import React from 'react'
 
 const Canvas = () => {
   return (
-    <div>Customizer</div>
+    <div>Canvas</div>
   )
 }
 
