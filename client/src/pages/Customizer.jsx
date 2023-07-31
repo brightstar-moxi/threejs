@@ -7,7 +7,7 @@ import state from '../store';
 import {download} from '../assets';
 import {downloadCanvasToImage, reader} from '../config/helpers';
 import {EditorTabs, FilterTabbs, DecalTypes} from '../config/constants';
-import {fadeAnimationl, slideAnimation} from '../config/motion'; 
+import {fadeAnimation, slideAnimation} from '../config/motion'; 
 
 const Customizer = () => {
   return (
