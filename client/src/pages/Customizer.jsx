@@ -23,12 +23,23 @@ const Customizer = () => {
   {...slideAnimation('left')}
   >
 <div className='flex items-center min-h-screen'>
-  <div className='editertabs-container tabs'>
-
+  <div className='editortabs-container tabs'>
+      {EditorTabs.map((tab) => (
+        <Tab
+        key={tab.name}
+        tab={tab}
+        handleClick={() => {}}
+        />
+      ))}
   </div>
 
 </div>
   </motion.div>
+
+   <motion.div className='absolute z-10 top-5 right-5' 
+   {...fadeAnimation}>
+   <CustomButton/>
+   </motion.div>
   </>
 )}
   </AnimatePresence>
